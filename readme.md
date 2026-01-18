@@ -5,7 +5,7 @@ The app allows users to upload an image, extract text, visualize bounding boxes 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 assignment/
@@ -14,18 +14,17 @@ assignment/
 │   └── main.py          # Streamlit app
 │
 ├── requirements.txt     # Project dependencies
-├── outputs/             # Generated outputs
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/satheeshbhukya/assignment.git
 ```
 
 ```bash
@@ -34,7 +33,7 @@ cd assignment/scripts
 
 ---
 
-### 2️⃣ Create and Activate Virtual Environment (Recommended)
+### Create and Activate Virtual Environment (Recommended)
 
 ```bash
 python -m venv .venv
@@ -54,7 +53,7 @@ source .venv/bin/activate
 
 ---
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 
 All dependencies are listed in `requirements.txt`.
 
@@ -64,7 +63,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Tesseract OCR Setup
+## Tesseract OCR Setup
 
 Install **Tesseract OCR** locally.
 
@@ -84,7 +83,7 @@ If Tesseract is installed elsewhere, update the path accordingly.
 
 ---
 
-## ▶️ Run the Streamlit App
+## Run the Streamlit App
 
 From the `scripts` directory:
 
@@ -101,7 +100,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 1. Upload an image (`.png`, `.jpg`, `.jpeg`)
 2. Click **Run OCR**
@@ -118,7 +117,7 @@ http://localhost:8501
 
 ---
 
-## 📤 Outputs
+## Outputs
 
 The application generates:
 
@@ -128,7 +127,7 @@ The application generates:
 
 ---
 
-## ✅ Features
+## Features
 
 * Fully offline OCR
 * Bounding box visualization
@@ -138,24 +137,24 @@ The application generates:
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Best results with **high-contrast images**
 * Character whitelist optimized for **uppercase letters and digits**
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Image deskewing
 * Confidence threshold slider
 * Line-level OCR
 * Batch image processing
-* Webcam input support
+* Webcam input support    
 
 ---
 
-## 👤 Author
+## Author
 
 **Satheesh Bhukya**
 **Project:** Assignment – OCR Streamlit App
