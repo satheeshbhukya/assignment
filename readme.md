@@ -13,8 +13,8 @@ assignment/
 ├── scripts/
 │   └── main.py          # Streamlit app
 │
-├── requirements.txt     # Project dependencies
-└── README.md
+├── readme.md
+└── requirements.txt     # Project dependencies
 ```
 
 ---
@@ -42,7 +42,7 @@ python -m venv .venv
 **Windows**
 
 ```bash
-.venv\Scripts\activate
+.venv\scripts\activate
 ```
 
 **Linux / macOS**
